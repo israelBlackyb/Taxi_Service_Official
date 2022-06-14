@@ -1,12 +1,23 @@
-// Taxi_Service_Official.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Israel_Ethan_Taehg_Taxi_Booking.cpp : This file contains the 'main' function. Program execution begins and ends there.
+#include "Functions.h"
 
-#include <iostream>
+
+int landingInput;
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	DrawLine(25);
+	cout << "\nBlack & White Cab Co." << endl; //business title
+	DrawLine(25); cout << endl;
+	DrawLine(25); cout << "\n\n";
+
+	cout << "Terms & Conditions:\n";
+	DrawLine(25);
+	cout << "\nPlease Pay\n\n";
+	landing();
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
